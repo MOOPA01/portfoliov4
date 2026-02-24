@@ -53,9 +53,9 @@ Here are all of the homeworks I completed for this trimester, organized by topic
 
 ---
 
-**Classes & Methods:** This is the lesson I taught. We covered string properties and methods, including length, indexing, slicing, and concatenation, and practiced manipulating strings in various ways.
+**Classes & Methods:** We learned how to define classes and methods in JavaScript, allowing us to create our own custom data types and encapsulate related properties and behaviors together.
 
-<a href="{{site.baseurl}}/js/strings" style="text-decoration:none; background-color:#1E90FF; color:white; padding:10px 20px; border-radius:5px; font-weight:bold; display:inline-block;">Strings</a>
+<a href="{{site.baseurl}}/js/classes" style="text-decoration:none; background-color:#1E90FF; color:white; padding:10px 20px; border-radius:5px; font-weight:bold; display:inline-block;">Classes & Methods</a>
 
 ---
 
