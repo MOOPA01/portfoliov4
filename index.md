@@ -27,14 +27,14 @@ Hi! My name is Seonyoo Pak
 > Here is my progress through coding, click to see these online
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{site.baseurl}}/snake" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/solitaire" style="text-decoration: none;">
         <div style="background-color: #00FF00; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-            Snake Game
+            Solitaire
         </div>
     </a>
-    <a href="{{site.baseurl}}/solitaire" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/memory" style="text-decoration: none;">
         <div style="background-color: #FF0000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-            Turtle
+            Memory Game
         </div>
     </a>
 </div>
