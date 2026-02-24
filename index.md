@@ -12,17 +12,11 @@ Hi! My name is Seonyoo Pak
 > Coding starts with tools, explore these tools and procedures with a click.
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="https://github.com/Open-Coding-Society/student">
+    <a href="https://github.com/MOOPA01/portfoliov4">
         <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
     </a>
-    <a href="https://open-coding-society.github.io/student">
+    <a href="https://moopa01.github.io/portfoliov4/">
         <img src="https://img.shields.io/badge/GitHub%20Pages-327FC7?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pages">
-    </a>
-    <a href="https://kasm.opencodingsociety.com/">
-        <img src="https://img.shields.io/badge/KASM-0078D4?style=for-the-badge&logo=kasm&logoColor=white" alt="KASM">
-    </a>
-    <a href="https://vscode.dev/">
-        <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VSCode">
     </a>
 </div>
 
@@ -38,7 +32,7 @@ Hi! My name is Seonyoo Pak
             Snake Game
         </div>
     </a>
-    <a href="{{site.baseurl}}/turtle" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/solitaire" style="text-decoration: none;">
         <div style="background-color: #FF0000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Turtle
         </div>
