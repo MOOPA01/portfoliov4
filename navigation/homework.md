@@ -3,12 +3,6 @@ layout: post
 comments: true
 title: Homework Summation
 permalink: /homework/
-
-<style>
-  body, p, li, strong, h1, h2, h3, h4, span, a {
-    color: black !important;
-  }
-</style>
 ---
 
 # Trimester 2 Homework Summation Blog
