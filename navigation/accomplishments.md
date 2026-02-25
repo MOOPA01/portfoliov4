@@ -19,34 +19,38 @@ code .
 
 I, along with my team, also created games such as Solitaire, Memory Game, and Snake Game, which helped me practice my coding skills and apply what I learned in a fun and interactive way. These projects allowed me to experiment with different programming concepts and techniques while creating something enjoyable to play.
 <img src="{{site.baseurl}}/images/about/solitaire.png" alt="Image 1">
+<div class="accomplishments-caption">Solitaire Game</div>
+<div class="accomplishments-description">Here is the solitaire game that I coded as part of my group's project.</div>
+
 ## Sprint 2
-Here’s what I learned from team teaches:
+In sprint 2, we focused on learning and practicing various programming concepts, as well as teaching a lesson. Here, I will briefly go over the key concepts I learned and practiced during this sprint, as well as showcasing the lesson I created and taught:
 
-Strings (P2): Strings are sequences of characters used to store and manipulate text in JavaScript (like combining, slicing, or changing case).
+*Strings:* This is the lesson I taught. We covered string properties and methods, including length, indexing, slicing, and concatenation, and practiced manipulating strings through interactive exercises analogies.
 
-Mathematical Expressions (P2): These use operators like +, -, *, /, and % to perform calculations and evaluate numeric results.
+*Mathematical Expressions:* I practiced using mathematical operators and expressions to perform calculations and manipulate numerical data in JavaScript. This included working with addition, subtraction, multiplication, division, and more complex expressions.
 
-Booleans (P2): Booleans represent true or false values and are often used in comparisons and decision-making.
+*Booleans:* I practiced using boolean values and logical operators to create complex conditions and control the flow of my programs based on true/false evaluations.
 
-JSON and JavaScript Objects (P2): Objects store data in key-value pairs, and JSON is a text format used to store and transfer structured data.
+*JSON and JavaScript Objects:* I practiced working with JSON data, including parsing JSON strings into JavaScript objects and converting JavaScript objects back into JSON format. I also learned how to access and manipulate data within JavaScript objects.
 
-Nested Conditionals (P2): These are if statements inside other if statements, allowing more complex decision-making.
+*Nested Conditionals:* I practiced using nested if statements to create more complex decision-making structures in my code, allowing for multiple layers of conditions and outcomes.
 
-Iterations (P2): Iterations use loops (like for or while) to repeat code multiple times.
+*Iterations:* I practiced using loops (for and while) to repeat blocks of code, allowing us to perform tasks multiple times without having to write the same code over and over again.
 
-Data Abstraction (P2): Data abstraction organizes and simplifies complex data, often using functions or objects to make code cleaner and reusable.
+*Data Abstraction:* I learned how to abstract data using objects and classes, encapsulating related properties and behaviors together, and practiced designing my own data structures.
 
-Arrays (P2): Arrays store multiple values in a single variable and allow you to access them by index.
+*Arrays:* I practiced creating and manipulating arrays, including indexing, slicing, and using array methods to add, remove, and search for elements.
 
-Conditionals (P2): Conditionals (if, else if, else) allow your program to make decisions based on certain conditions.
+*Variables:* I practiced declaring and using variables to store and manipulate data in my programs, including understanding variable scope and best practices for naming and organizing variables.
 
-Functions (P2): Functions are reusable blocks of code that perform specific tasks and can take inputs (parameters) and return outputs.
-
-I also learned how to work in Jupyter notebooks and work with teammates when creating a lesson.
-<img src="{{site.baseurl}}/images/gamify/notebook.png" alt="Image 1">
+I also learned how to work in Jupyter notebooks and improved at collaborating with my team on projects, including giving and receiving feedback, dividing tasks, and communicating effectively. Overall, this sprint helped me deepen my understanding of programming concepts and improve my ability to teach and collaborate with others.
+<img src="{{site.baseurl}}/images/about/lesson_teach.png" alt="Image 2">
+<div class="accomplishments-caption">My Lesson</div>
+<div class="accomplishments-description">Here is the strings lesson that I made and taught.</div>
 
 ## Sprint 3
-For this sprint, my group and I created an RPG game using the Game Runner and GameEngine framework. I learned how the game architecture works, including how the canvas is created, styled, and controlled with Start, Pause, Stop, and Reset buttons. I understood how levels are structured using classes with constructors that define the background, player, NPCs, and other game objects stored in the this.classes array. 
+
+In this sprint, our class worked together to create an RPG game, which was a great opportunity to apply the programming concepts we had learned in a more complex and interactive project. My group was in charge of creating the boss fight environment, which involved designing the layout, creating assets, and implementing the mechanics for the boss fight. While we did not manage to implement every feature we wanted to, we were able to create a functional boss fight environment that included basic movement, collision detection, and interactions. I was aslo a good learning experience for me to practice debugging and problem-solving skills, as we encountered various challenges along the way, such as fixing bugs, optimizing performance, and ensuring that the game ran smoothly. Overall, this sprint was a valuable opportunity to apply our programming skills in a collaborative project and learn from each other while creating a fun and engaging game.
 
 While building our RPG, I practiced object-oriented programming by working with classes for players, environments, and interactions. I learned how the game loop updates and renders objects, how keyboard input controls movement (WASD/arrow keys), and how interactions are triggered with keys like E or Enter. 
 <img src="{{site.baseurl}}/images/gamify/ocean.PNG" alt="Image 1">
