@@ -11,9 +11,9 @@ author: Seonyoo Pak
 
 At N@TM, there were many different projects from all of the CS classes, showcasing the work that they had done throughout the trimester. We had a table set up with our RPG game, and we also had a TV in the back where we presented our game to everyone who came by. It was a great opportunity to share our work and get feedback from others.
 
-## Presenting our class game
+## Presenting our Game
 
-At N@TM our class presented our RPG game (at least the parts that worked) to everyone who came by to our table. I presented on the TV in the back and we let everyone try out our game and then explained some of the work that went into it, includng sprites, code, and npcs. We also created a feedback form, and the general consensus for our feedback was that the game mechanics could be improved to make it more in depth, which we had expected.
+At N@TM, we had the chance to present our Murder Mystery game to a wide audience. We set up a TV in the back of our table where we showcased our game, allowing visitors to see the gameplay and learn about the features we implemented. It was exciting to share our project with others and receive feedback on our work.
 
 ## Gallery of Images from N@TM
 
