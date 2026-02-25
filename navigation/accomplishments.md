@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Accomplishments
+title: My Acomplishments
 permalink: /acomplishments/
 comments: True
 ---
