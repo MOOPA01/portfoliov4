@@ -61,6 +61,7 @@ Hi! My name is Seonyoo Pak
         <div style="background-color: #9370db; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Accomplishments
         </div>
+    </a>
 </div>
 
 <br>
