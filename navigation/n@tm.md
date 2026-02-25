@@ -76,6 +76,6 @@ At N@TM, we had the chance to present our Murder Mystery game to a wide audience
   <div class="natm-figure">
     <img src="{{site.baseurl}}/images/about/n@tm5.jpg" alt="Final Shot">
     <div class="natm-caption">Final Shot</div>
-    <div class="natm-description">here is everyone who was present at the event</div>
+    <div class="natm-description">Here is everyone who was present at the event</div>
   </div>
 </div>

@@ -1,28 +1,24 @@
 ---
 layout: post
 title: My Accomplishments
-permalink: /accomplishment-blog/
+permalink: /accomplishments/
 comments: True
 ---
 
 ## Sprint 1
 
-This sprint, I learned how to:
-- Use tools: VSCode, GitHub, GitHub Pages, Make 
-- Build Github Pages Sites: Team GitHub Pages site + my own portfolio site
-- Document Everything: Write blog posts or issues in Github showing what I learned and struggled with
-
-Learning how to set up a repository in VScode was very important learning, as I use it for every edit I make.
+This sprint, I learned how to use tools such as VSCode, GitHub, GitHub Pages, and Ubuntu. I also learned how to set up a development environment, including creating virtual environments and installing necessary packages. I practiced using Git for version control, including committing changes, pushing to repositories, and collaborating with others on GitHub. I practiced creating and forking repositories on GitHub, and I also learned how to deploy a website using GitHub Pages. I also learned how to navigate the command line in Ubuntu, including basic commands for file management and system navigation, as shown below. Overall, this sprint helped me establish a solid foundation for my development workflow and version control practices.
 
 
 ```python
-./scripts/activate_macos.sh
-./scripts/activate.sh # prompts for Git UID and Personal Email
+source venv/bin/activate
+./scripts/activate.sh 
 ./scripts/venv.sh
+code .
 ```
 
-I also created some game hacks for games such as Snake and Breakout, visible down on the index page.
-<img src="{{site.baseurl}}/images/gamify/breakout.png" alt="Image 1">
+I, along with my team, also created games such as Solitaire, Memory Game, and Snake Game, which helped me practice my coding skills and apply what I learned in a fun and interactive way. These projects allowed me to experiment with different programming concepts and techniques while creating something enjoyable to play.
+<img src="{{site.baseurl}}/images/about/solitaire.png" alt="Image 1">
 ## Sprint 2
 Here’s what I learned from team teaches:
 

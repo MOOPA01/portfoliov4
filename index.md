@@ -57,6 +57,10 @@ Hi! My name is Seonyoo Pak
             Night at the Museum
         </div>
     </a>
+    <a href="{{site.baseurl}}/accomplishment-blog" style="text-decoration: none;">
+        <div style="background-color: #9370db; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Accomplishments
+        </div>
 </div>
 
 <br>
