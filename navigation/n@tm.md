@@ -41,13 +41,13 @@ At N@TM, we had the chance to present our Murder Mystery game to a wide audience
       {% assign img_name = 'n@tm' | append: i | append: '.jpg' %}
     {% endif %}
     <a class="natm-item" href="#lightbox-{{ i }}">
-      <img src="{% relative_url /images/n@tm/{{ img_name }} %}" alt="{{ img_name }}">
+      <img src="{{ '/images/n@tm/' | append: img_name | relative_url }}" alt="{{ img_name }}">
       <div class="natm-caption">{{ img_name | split:'.' | first }}</div>
     </a>
 
     <div id="lightbox-{{ i }}" class="lightbox">
       <a href="#" style="position:absolute;inset:0;"></a>
-      <img src="{% relative_url /images/n@tm/{{ img_name }} %}" alt="{{ img_name }}">
+      <img src="{{ '/images/n@tm/' | append: img_name | relative_url }}" alt="{{ img_name }}">
     </div>
   {% endfor %}
 </div>
