@@ -42,11 +42,6 @@ Hi! My name is Seonyoo Pak
             Snake Game
         </div>
     </a>
-    <a href="{{site.baseurl}}/connect4" style="text-decoration: none;">
-        <div style="background-color: #FFD700; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-            Connect 4
-        </div>
-    </a>
     <a href="{{site.baseurl}}/about" style="text-decoration: none;">
         <div style="background-color: #390b9c; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             About Me
