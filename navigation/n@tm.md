@@ -20,35 +20,62 @@ At N@TM, we had the chance to present our Murder Mystery game to a wide audience
 <style>
 .natm-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
-  gap: 10px;
-  margin: 1rem 0;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 2rem 0;
 }
-.natm-item{ position:relative; overflow:hidden; border-radius:8px; display:block; text-decoration:none; color:inherit;}
-.natm-item img{ width:100%; height:100%; object-fit:cover; transition:transform .35s ease, filter .35s ease; display:block;}
-.natm-item:hover img{ transform:scale(1.08); filter:brightness(.9) saturate(1.05);}
-.natm-caption{ position:absolute; bottom:6px; left:6px; right:6px; color:#fff; font-size:0.85rem; text-shadow:0 2px 6px rgba(0,0,0,.6); background:linear-gradient(transparent, rgba(0,0,0,.25)); padding:6px; border-radius:6px;}
-.lightbox{ display:none; position:fixed; inset:0; background:rgba(0,0,0,.85); align-items:center; justify-content:center; z-index:1000; padding:2vh;}
-.lightbox img{ max-width:95%; max-height:92%; box-shadow:0 10px 40px rgba(0,0,0,.6); border-radius:6px;}
-.lightbox:target{ display:flex;}
+.natm-figure {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.natm-figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.natm-caption {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+}
+.natm-description {
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.4;
+}
 </style>
 
 <div class="natm-gallery">
-  {% for i in (1..5) %}
-    {% if i == 1 %}
-      {% assign img_name = 'n@tm.jpg' %}
-    {% else %}
-      {% assign img_name = 'n@tm' | append: i | append: '.jpg' %}
-    {% endif %}
-    <a class="natm-item" href="#lightbox-{{ i }}">
-      <img src="{{ '/images/n@tm/' | append: img_name | relative_url }}" alt="{{ img_name }}">
-      <div class="natm-caption">{{ img_name | split:'.' | first }}</div>
-    </a>
-
-    <div id="lightbox-{{ i }}" class="lightbox">
-      <a href="#" style="position:absolute;inset:0;"></a>
-      <img src="{{ '/images/n@tm/' | append: img_name | relative_url }}" alt="{{ img_name }}">
-    </div>
-  {% endfor %}
+  <div class="natm-figure">
+    <img src="{{site.baseurl}}/images/about/n@tm.jpg" alt="Game Setup">
+    <div class="natm-caption">Game Setup</div>
+    <div class="natm-description">Our RPG game display at the N@TM event</div>
+  </div>
+  <div class="natm-figure">
+    <img src="{{site.baseurl}}/images/about/n@tm1.jpg" alt="Presentation">
+    <div class="natm-caption">Crypto Presentation</div>
+    <div class="natm-description">This group made a game to teach the basics of crypto</div>
+  </div>
+  <div class="natm-figure">
+    <img src="{{site.baseurl}}/images/about/n@tm2.jpg" alt="Gameplay Demo">
+    <div class="natm-caption">Poll</div>
+    <div class="natm-description">This group was taking feed back on their project on AI</div>
+  </div>
+  <div class="natm-figure">
+    <img src="{{site.baseurl}}/images/about/n@tm3.jpg" alt="Feedback">
+    <div class="natm-caption">Presentaion on AI</div>
+    <div class="natm-description">This group was explaining how to use AI responisbly and efficiently</div>
+  </div>
+  <div class="natm-figure">
+    <img src="{{site.baseurl}}/images/about/n@tm4.jpg" alt="Crowd">
+    <div class="natm-caption">GameRunner</div>
+    <div class="natm-description">This group was showcasing the GameRunner Engine</div>
+  </div>
+  <div class="natm-figure">
+    <img src="{{site.baseurl}}/images/about/n@tm5.jpg" alt="Final Shot">
+    <div class="natm-caption">Final Shot</div>
+    <div class="natm-description">here is everyone who was present at the event</div>
+  </div>
 </div>
-
