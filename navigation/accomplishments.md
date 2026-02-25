@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Accomplishments
-permalink: /accomplishments/
+permalink: /acomplishments/
 comments: True
 ---
 
